@@ -1,0 +1,89 @@
+.store_locations {
+    margin-top: 96px;
+    margin-bottom: 80px;
+}
+
+@media (max-width :768px) {
+    .store_locations {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width : 576px) {
+    .store_locations {
+        margin-top: 40px;
+        margin-bottom: 64px;
+    }
+}
+
+.store_locations_title {
+    h1 {
+        color: #000;
+        padding-left: 16px;
+        border-left: 8px solid #9F1213;
+    }
+}
+
+.select_locations {
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+    .locations {
+        color: #495057;
+        font-size: 18px;
+        width: 304px;
+        padding: 6px 12px;
+        border: 1px solid #CED4DA;
+    }
+}
+
+@media (max-width : 576px) {
+    .select_locations {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+.location_card {
+    width: calc(33.3333333333% - 16px);
+
+    h2 {
+        padding: 8px 24px;
+    }
+
+    li {
+        border: 1px solid #00000020;
+    }
+
+    .location_card_content {
+        font-size: 20px;
+        padding: 16px 24px;
+    }
+
+    .location_card_footer {
+        font-size: 19px;
+        color: #FFFFFF;
+        padding: 16px;
+        background: #000000;
+    }
+
+}
+
+@media (max-width :768px) {
+    .location_card {
+        width: calc(50% - 12px);
+    }
+}
+
+@media (max-width : 576px) {
+    .select_locations {
+        .locations {
+            width: 276px;
+        }
+    }
+
+    .location_card {
+        width: 100%;
+    }
+}

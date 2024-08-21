@@ -1,0 +1,158 @@
+.product_list {
+    a {
+        color: #000000;
+        padding: 24px 0 16px 0;
+        width: 33.3333333333%;
+        text-align: center;
+        border-left: 1px solid #DCDCDC;
+        border-right: 1px solid #DCDCDC;
+        border-bottom: 8px solid transparent;
+    }
+
+    a:hover {
+        border-bottom: 8px solid #AA0601;
+    }
+}
+
+@media (max-width :1320px) {
+    .list {
+        margin: 0 -12px;
+    }
+}
+
+.product_banner_1 {
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true');
+    height: 296px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.product_banner_2 {
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true');
+    height: 296px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width :768px) {
+    .product_banner_1 {
+        background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true');
+    }
+
+    .product_banner_2 {
+        background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true');
+    }
+}
+
+@media (max-width : 576px) {
+    .product_banner_1 {
+        background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true');
+        height: 136px;
+    }
+
+    .product_banner_2 {
+        background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true');
+        height: 136px;
+    }
+}
+
+.product {
+    margin: 80px auto;
+
+    .product_title {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .product_card {
+        margin-bottom: 80px;
+    }
+
+    h4 {
+        color: #AA0601;
+        font-weight: 500;
+    }
+
+    .card {
+        width: calc(25% - 18px);
+    }
+
+    .color_1 {
+        width: 24px;
+        height: 24px;
+        background: #5F3E2D;
+        border-radius: 4px;
+    }
+
+    .color_2 {
+        width: 24px;
+        height: 24px;
+        background: #B75929;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width :960px) {
+    .product {
+        .card {
+            width: calc(50% - 12px);
+        }
+    }
+}
+
+@media (max-width : 576px) {
+    .product {
+        margin: 40px auto 64px auto;
+
+        .product_title {
+            margin-bottom: 24px;
+        }
+
+        .product_card {
+            margin-bottom: 64px;
+        }
+
+        .card {
+            width: 100%;
+        }
+    }
+}
+
+.product_pages {
+    .page_btn {
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        font-size: 19px;
+        padding: 0 11px;
+    }
+
+    .page_btn:hover {
+        background-color: #DCDCDC;
+    }
+
+    a {
+        border: 1px solid #000000;
+        color: #000;
+        font-size: 18px;
+        padding: 11px 15px;
+    }
+
+    a:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width : 576px) {
+    .product_pages {
+        .page_btn {
+            font-size: 16px;
+        }
+
+        a {
+            font-size: 16px; 
+        }
+    }
+}

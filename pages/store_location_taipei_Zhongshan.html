@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taipei_Zhongshan</title>
+</head>
+
+<body>
+    <%- include('./layout/header'); -%>
+
+        <main>
+            <div class="store_locations">
+                <div class="container container_md container_sm">
+                    <div class="store_locations_title">
+                        <h1 class="fs_3 fs_sm_9">門市據點</h1>
+                    </div>
+
+                    <div class="select_locations d_flex ai_center gap_5 gap_6_sm">
+                        <label for="location" class="fs_9 fs_sm_10">選擇分店</label>
+                        <select name="location" id="location" class="locations">
+                            <option value="台北中山旗艦店">台北中山旗艦店</option>
+                            <option value="台北綠園店">台北綠園店</option>
+                            <option value="台中清水旗艦店">台中清水旗艦店</option>
+                            <option value="高雄中正形象店">高雄中正形象店</option>
+                            <option value="高雄夢時代店">高雄夢時代店</option>
+                        </select>
+                    </div>
+
+                    <div class="location_cards d_flex fw_wrap gap_8 gap_1_md gap_1_sm">
+
+                        <div class="location_card">
+                            <div>
+                                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/storepage-1.png?raw=true"
+                                    alt="storepage-1">
+                            </div>
+                            <ul>
+                                <li>
+                                    <h2 class="fs_9">台北中山旗艦店</h2>
+                                </li>
+                                <li>
+                                    <div class="location_card_content">
+                                        <p class="d_flex gap_6 ai_center p_bottom_1">
+                                            <span class="material-symbols-outlined">call</span>
+                                            電話：(02)000-1234
+                                        </p>
+                                        <p class="d_flex gap_6 ai_center p_bottom_1">
+                                            <span class="material-symbols-outlined">schedule</span>
+                                            營業時間：10:00-21:00
+                                        </p>
+                                        <p class="d_flex gap_6">
+                                            <span class="material-symbols-outlined p_top_2">location_on</span>
+                                            地址：台北市中山區南京東路25巷2-1號
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="location_map">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <%- include('./layout/footer'); -%>
+
+            <script type="module" src="../main.js"></script>
+</body>
+
+</html>
